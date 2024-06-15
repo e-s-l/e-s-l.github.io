@@ -77,17 +77,11 @@ a:visited {
 
 /* ... */
 
-/*
-p {
-    padding: 50em 0 50em 0;
-}
-*/
-
 /* ... */
 
 .area-x {
     margin: auto;
-    padding: 20em 10em 50em 10em;
+    padding: 10em 10em 50em 10em;
 }
 
 #text {
