@@ -19,6 +19,12 @@ header {
     width: auto;
 }
 
+header > p {
+    text-align: center;
+    margin: 1em;
+    margin-bottom: 4em;
+}
+
 body{
     background-color: #ededed;
     padding:5em;
@@ -53,4 +59,13 @@ figcaption{
     box-shadow: #a1a1a1 10px 10px 2px ;
 }
 
-/**/
+/*...*/
+
+a a:onclick {
+    text-decoration: none;
+    color: #00000;
+}
+
+/*...*/
+
+
