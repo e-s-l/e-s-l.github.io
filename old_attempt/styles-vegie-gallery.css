@@ -1,0 +1,56 @@
+/**/
+
+html {
+    font-size:16px;
+    scroll-behavior: smooth;
+}
+
+/* CSS reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/**/
+header {
+    padding: auto;
+    padding-bottom: 5em;
+    width: auto;
+}
+
+body{
+    background-color: #ededed;
+    padding:5em;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/**/
+.deck {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.card{
+    border: solid  #131313 1px;
+    background-color: #efefef;
+}
+
+
+img {
+    height:100%;
+    width:100%;
+}
+
+figcaption{
+    padding:0.5em;
+}
+
+.card:hover {
+    box-shadow: #a1a1a1 10px 10px 2px ;
+}
+
+/**/

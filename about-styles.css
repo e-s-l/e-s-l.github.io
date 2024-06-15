@@ -1,0 +1,37 @@
+/* Reset CSS */
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing:border-box;
+}
+
+/*Resposive image reset*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/**************************************************/
+
+body {
+    background-image: url('./images/analog_camera_2.JPG');
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.main {
+    backdrop-filter: hue-rotate(240deg)  blur(5px);
+    padding: 20px;
+    margin: 5%;
+    border-radius: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*...*/

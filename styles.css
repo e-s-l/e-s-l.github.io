@@ -1,123 +1,62 @@
-/*
-NOTES:
-Use rems for font sizing and ems for margins and padding. Use px for borders, border radius, gradients, drop shadows and media queries.
-*/
-
-
-html {
-    font-size:16px;
+/* Reset CSS */
+html{
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
-    background-image: url(./images/bg800bulbs.jpg);
-
+    box-sizing:border-box;
 }
+
+/*Resposive image reset*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/**************************************************/
 
 body {
-  background-color: #ffffff;
-  margin: 15em;
-  border-radius: 25px;
+    background-image: url('./images/analog_camera_1.JPG');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+  
 }
 
-h1 {
-    font-size: 50px;
+/*...*/
+
+ul {
+    list-style: none;
+    width: auto;
+    height: auto;
+    
 }
 
-h2 {
-    font-size: 45px;
+li {
+    padding: 2px;
 }
 
-p {
-    font-size: 35px;
+ul > li {
+    color: midnightblue;
+    filter: drop-shadow(0 0 1px blue);
+    /* backdrop-filter: hue-rotate(240deg)  blur(5px);
+   text-shadow: 2px 2px black; */
 }
 
-header #logo {
-    float: left;
-    margin: 1em;
-    padding: 2em;
-    border-radius: 1%;
+.top {
+    margin: auto;
+    margin-left: 10vh;
+    margin-top: 0vh;
+    padding: 2vw;
 }
 
-header p {
-    margin: 2em;
-    float: right;
-    font-size: 50px;
+/*...*/
+
+a {
+    text-decoration: none;
 }
 
-a:link {
-    color: #000000;
-}
-
-.banner img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    object-fit: contain;
-}
-
-
-.main-sections h1, #about-us h1 {
-    border-bottom: 2px black solid;
-    padding: 0.5em; 
-}
-
-.main-sections p, #about-us p {
-    padding:1em 1em 0 1em;
-}
-
-.main-sections img {
-    float: right;
-    height: 40em;
-    margin: 2em 4em 0 3em;
-    border-radius:10%;
-}
-
-.main-sections::after{
-    content:"";
-    display: block;
-    clear: both;
-}
-
-
-.back-to-top{
-    margin-left: auto;
-    margin-top: 2em;
-    padding: 1em 2em 1em 2em;
-    font-size: 30px;
-    border: 2px #000000 solid;
-    border-radius: 10px;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2em 0 2em 0;
-}
-
-#testimonials h1 {
-    padding: 0.5em; 
-}
-
-.testimony {
-    border: 1px limegreen solid;
-    box-shadow: -15px 10px 5px limegreen;
-    margin: 5em;
-    height: 20em;
-    padding:2em;
-    background-color: rgb(206, 248, 248);
-}
-
-.testimony img {
-    float:left;
-    padding: 2em;
-}
-
-.end {
-    background-color: orange;
-    padding:1em 1em;
-    margin: 5em 0 0 0; 
-    border-radius: 0 0 1em 1em;
-}
-
-header p, .end p {
-    font-size: 30px;
+a:hover {
+    cursor: url('./images/cable-1.png'), pointer;
 }
