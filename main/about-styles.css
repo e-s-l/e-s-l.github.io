@@ -13,7 +13,17 @@ img {
     display: block;
 }
 
-/**************************************************/
+/* ... */
+
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+}
+
+
+/* ... */
 
 body {
     background-image: url('../images/analog-2.jpg');
@@ -28,6 +38,7 @@ body {
     padding: 20px;
     margin: 5%;
     border-radius: 2%;
+
 }
 
 h1 {
@@ -35,3 +46,54 @@ h1 {
 }
 
 /*...*/
+
+.three-columns {
+    display: flex;
+    felx-wrap: wrap;
+    justify-content: space-between;
+}
+
+.three-columns > * {
+    width: 100%;
+    padding: 1rem;
+    border: 1px black solid;
+    text-align: center;
+
+}
+
+/* ... */
+
+footer {
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+}
+
+
+/*...*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: url('./images/cable-1.png'), pointer;
+     transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+
+
+/* ... */
+
+
+@media (min-width:768px) {
+    .three-columns > * {
+        width: calc(100% / 3);
+    }
+}
+
+/* ... */

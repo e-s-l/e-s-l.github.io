@@ -26,11 +26,17 @@ body {
 
 /*...*/
 
+nav {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 ul {
     list-style: none;
     width: auto;
     height: auto;
-    
 }
 
 li {
