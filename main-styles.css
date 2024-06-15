@@ -1,0 +1,36 @@
+body {
+    background-image: url('./images/analog-1.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+/*...*/
+
+nav {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li {
+    padding: 2px;
+}
+
+ul > li {
+    color: midnightblue;
+    filter: drop-shadow(0 0 1px blue);
+    /* backdrop-filter: hue-rotate(240deg)  blur(5px);
+   text-shadow: 2px 2px black; */
+}
+
+.top {
+    margin: auto;
+    margin-left: 10vh;
+    margin-top: 0vh;
+    padding: 2vw;
+}

@@ -37,7 +37,7 @@ body {
     backdrop-filter: hue-rotate(240deg)  blur(5px);
     padding: 20px;
     margin: 5%;
-    border-radius: 2%;
+    border-radius: 2em;
 
 }
 
@@ -71,20 +71,6 @@ footer {
     text-align: center;
     padding: 2em;
 }
-
-
-/*...*/
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    cursor: url('./images/cable-1.png'), pointer;
-     transition: all 0.3s ease 0s;
-    color: #0088a9;
-}
-
 
 
 /* ... */
