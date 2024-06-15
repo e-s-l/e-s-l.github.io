@@ -1,8 +1,8 @@
 ## Experimental Website Practice
 
-    Pages default address is 
+Pages default address is 
         
         https://e-s-l.github.io/
 
-    Also plan on linking a neocities site.
+Also plan on linking a neocities site.
 
