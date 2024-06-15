@@ -1,5 +1,3 @@
-
-
 /* CSS reset */
 * {
     margin:0;
@@ -9,17 +7,15 @@
 html {
     font-size:16px;
     scroll-behavior: smooth;
+    scroll-padding-top: 5em;
 }
 
-/***/
-
+/* ... */
 
 html, body {
     margin: 0;
     width:100%;
 }
-
-
 
 /*linear background over body*/
 body {
@@ -27,19 +23,23 @@ body {
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
     font-style: normal;
-    background-image: url(watercolor.webp);
+    background-image: url(./images/watercolor.webp);
 }
 
 header {
+    position: fixed;
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 2em 2em 0;
+    padding:0 0em 2em 0;
+    margin-top: 0;
+    padding-bottom: 10em;
 }
 
 .logo{
-    height:100px;
-    width:100px;
+    height:80px;
+    width:80px;
     padding:0px;
     margin-right:auto;
     cursor: pointer;
@@ -47,7 +47,7 @@ header {
 
 .navbar {
     list-style: none;
-    margin-right:10em;
+    margin-right:0em;
 }
 
 .navbar li {
@@ -59,6 +59,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
+/* ... */
 
 a:link {
     color: #000000;
@@ -72,30 +73,39 @@ a:visited {
 .navbar li a:hover {
     transition: all 0.3s ease 0s;
     color: #0088a9;
-   
 }
 
+/* ... */
 
-p{
+/*
+p {
     padding: 50em 0 50em 0;
 }
+*/
 
-.area-x{
-    margin:auto;
-    padding:10em 10em 50em 10em;
+/* ... */
+
+.area-x {
+    margin: auto;
+    padding: 20em 10em 50em 10em;
 }
 
-footer{
-    margin:auto;
-    padding:10em;
+#text {
+    padding: 0em 0em 50em 0em;
 }
 
+footer {
+    margin: auto;
+    margin-top: 10em;
+    padding: 10em;
+}
 
-/***********************************************/
+/* ... */
 
 .square-loader {
     padding: 150px;
     margin: 250px;
+    margin-bottom: 0em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -110,7 +120,7 @@ footer{
     height:5vw;
     border: 5px solid black;
     position: relative;
-    animation: square-anime 1s linear infinite alternate-reverse;
+    animation: square-anime 2s linear infinite alternate-reverse;
 }
 
 
@@ -119,7 +129,5 @@ footer{
         opacity: -0.25;
     }
 }
-
-/***********************************************/
 
 

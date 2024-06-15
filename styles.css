@@ -16,7 +16,7 @@ img {
 /**************************************************/
 
 body {
-    background-image: url('./images/analog_camera_1.JPG');
+    background-image: url('./images/analog-1.jpg');
     background-size: cover;
     background-repeat: repeat;
     width: 100vw;
@@ -59,4 +59,6 @@ a {
 
 a:hover {
     cursor: url('./images/cable-1.png'), pointer;
+     transition: all 0.3s ease 0s;
+    color: #0088a9;
 }
