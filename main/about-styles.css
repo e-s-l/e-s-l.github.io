@@ -45,12 +45,16 @@ h1 {
     text-align: center;
 }
 
-/*...*/
+/*.
+ * flex-wrap: wrap;
+ *  flex-direction: column;
+ * ..*/
 
 .three-columns {
     display: flex;
-    felx-wrap: wrap;
-    justify-content: space-between;
+    align-content: space-between;
+    margin: auto;
+    padding: auto;
 }
 
 .three-columns > * {
@@ -77,9 +81,23 @@ footer {
 
 
 @media (min-width:768px) {
+
     .three-columns > * {
         width: calc(100% / 3);
+
     }
 }
+
+
+@media (max-width:768px) {
+
+ .three-columns {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+
 
 /* ... */
