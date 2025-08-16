@@ -21,6 +21,10 @@ a:hover	{
 	margin: 0 auto;
 }
 
+header h1 {
+	text-align: center;
+}
+
 #nav {
 	text-align:center;
 	margin:auto;

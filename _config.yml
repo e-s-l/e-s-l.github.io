@@ -3,7 +3,7 @@ owner: pearl
 email:
 description: Pearls Minimal Project Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://e-s-l.github.io/" # the base hostname & protocol for your site
+url: "https://e-s-l.github.io" # the base hostname & protocol for your site
 language: en
 twitter_username:
 github_username: e-s-l
@@ -22,7 +22,3 @@ exclude:
   - Gemfile.lock
   - vendor/bundle
 excerpt_separator: <!--more-->
-
-sass:
-  sass_dir: _sass
-  style: expanded   # compressed
