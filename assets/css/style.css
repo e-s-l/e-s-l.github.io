@@ -1,4 +1,12 @@
-body	{
+:root {
+	--text-color: #1e1e2e;
+	--highlight-color: #000000;
+	--background-color: #e1e1e2;
+	--second-background-color: #ffffff;
+	--third-background-color: grey;
+}
+
+body {
 	margin-top: 0px;
 	padding:0;
 	font-family: "IBM Plex Sans Condensed", sans-serif;
@@ -6,9 +14,15 @@ body	{
 	line-height:150%;
 }
 
-a:link, a:visited	{
+.container {
+	width: 80%;
+	height: auto;
+	background-color: var(--background-color);
+}
+
+a:link, a:visited {
 	text-decoration: none;
-	color:#000
+	color: var(--text-color);
 }
 
 a:hover	{
@@ -32,7 +46,7 @@ header h1 {
 	padding-top:0px;
 	margin-bottom:5px;
 	padding-bottom:5px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid var(--text-color);;
 }
 
 #content-left {
@@ -58,7 +72,7 @@ header h1 {
 	font-size:0.8em;
 	margin-bottom:10px;
 	padding-bottom:10px;
-	border-top: 1px solid #000;
+	border-top: 1px solid var(--text-color);;
 }
 
 #logo	{
@@ -72,7 +86,7 @@ header h1 {
 
 #content-left a:link, #content-left a:visited	{
 	text-decoration: underline;
-	color:#000
+	color: var(--text-color);
 }
 
 #content-left a:hover	{
@@ -81,7 +95,7 @@ header h1 {
 
 #post-short a:link, #post-short a:visited	{
 	text-decoration: none;
-	color:#000
+	color: var(--text-color);
 }
 
 #post-short a:hover	{
@@ -94,16 +108,16 @@ header h1 {
 
 #post-short i	{
 	font-size:0.8em;
-	color: grey;
+	color: var(--third-background-color);
 }
 
 #post i	{
 	font-size:0.9em;
-	color: grey;
+	color: var(--third-background-color);
 }
 
 #categories a, #categories a:link, #categories a:visited {
-	background-color: grey;
+	background-color: var(--third-background-color);
 	text-decoration: none;
 	padding: 0.1em 0.5em 0.1em 0.5em;
 	border-radius: 25px;
