@@ -10,7 +10,7 @@ Some relevant links:
 - [Google Scholar](https://scholar.google.com.au/citations?user=dnyW1AsAAAAJ&hl=en&oi=ao)
 
 
-### contact
+### Contact
 
 Reach me:
 - Email:
