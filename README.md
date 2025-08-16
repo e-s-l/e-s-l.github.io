@@ -4,7 +4,11 @@ Pages default address is
 
         https://e-s-l.github.io/
 
-Using Jekyll with the minimalist theme.
+Now using Jekyll with the XXX theme, to focus on the content...
+
+## about
+
+This is a clone of the minimalist theme, found [here](https://trybnetic.github.io/minimalist/), with small adjustments.
 
 ## TODO
 

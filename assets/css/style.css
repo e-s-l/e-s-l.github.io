@@ -192,3 +192,24 @@ header h1 {
 	}
 
 }
+
+/*
+custom global things generated from the markdown
+*/
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  min-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.6em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--second-background-color);
+}

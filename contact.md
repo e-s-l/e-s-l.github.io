@@ -5,5 +5,8 @@ permalink: /contact/
 ---
 
 Reach me:
-- Email: `sullivan.lester@protonmail.com`
-- Mastadon:
+- Email:
+    ```
+    934121@protonmail.com
+    ```
+- Mastodon:
