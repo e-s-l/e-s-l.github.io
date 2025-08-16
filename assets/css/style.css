@@ -12,11 +12,13 @@ body {
 	font-family: "IBM Plex Sans Condensed", sans-serif;
 	font-size:100%;
 	line-height:150%;
+	background-color: var(--second-background-color);
+	color: var(--text-color);
 }
 
 .container {
 	width: 80%;
-	height: auto;
+	height: 100%;
 	padding: 1rem;
 	margin:auto;
 	background-color: var(--background-color);
