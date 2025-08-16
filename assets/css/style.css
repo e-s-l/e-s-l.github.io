@@ -17,6 +17,8 @@ body {
 .container {
 	width: 80%;
 	height: auto;
+	padding: 1rem;
+	margin:auto;
 	background-color: var(--background-color);
 }
 
