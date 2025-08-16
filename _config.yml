@@ -1,4 +1,4 @@
-title: pearls
+title: pearls-projects
 owner: pearl
 email:
 description: Pearls Minimal Project Blog
@@ -7,7 +7,6 @@ url: "https://e-s-l.github.io" # the base hostname & protocol for your site
 language: en
 twitter_username:
 github_username: e-s-l
-disqus_username: 
 
 # Build settings
 markdown: kramdown

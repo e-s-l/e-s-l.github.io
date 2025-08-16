@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## meeeee
+Some relevant links:
 
-this is the about me page.
+- Github: https://github.com/e-s-l
+- Google Scholar: https://scholar.google.com.au/citations?user=dnyW1AsAAAAJ&hl=en&oi=ao
