@@ -112,12 +112,12 @@ header h1 {
 
 #post-short i	{
 	font-size:0.8em;
-	color: var(--background-color);
+	color: var(--highlight-color);
 }
 
 #post i	{
 	font-size:0.9em;
-	color: var(--background-color);
+	color: var(--highlight-color);
 }
 
 #categories a, #categories a:link, #categories a:visited {
