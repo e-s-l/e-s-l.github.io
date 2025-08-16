@@ -1,21 +1,15 @@
-## Experimental Website Practice
+# Personal Blog
 
 Pages default address is 
-        
+
         https://e-s-l.github.io/
 
-Also plan on linking a neocities site.
+Using Jekyll with the minimalist theme.
 
-**************************************
+## TODO
 
-### To Do:
-
-This is a perpetual work in progress, so there will always be lots to do...
-But to name some of them:
-
-<ul>
-    <li> Dither the images (to reduce file size): c.f. doodad.dev/dither-me-this/
-    <li> Make text color complement back ground color (4 accessibility)
-    <li> Media Queries for mobile friendly design... Also need to account for light/dark themes... </li>
-    <li> Add an 'official' CV... </li>
-</ul>
+- though it works on github pages, it fails to build locally...
+- starting filling it out.
+- modify the theme so it ain't so generic.
+- set up a work flow.
+    - soft links the `_posts` to somewhere more accessible.
