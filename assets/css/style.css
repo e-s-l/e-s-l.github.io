@@ -35,7 +35,7 @@ a:hover	{
 
 
 #main {
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -204,6 +204,7 @@ table {
   margin: 0 auto;
   border-collapse: collapse;
   border: 2px solid var(--highlight-color);
+  background-color: var(--second-background-color);
 }
 
 th,
@@ -211,9 +212,6 @@ td {
   padding: 0.6em;
 }
 
-tbody tr:nth-child(even) {
-  background-color: var(--second-background-color);
-}
 tbody tr:nth-child(odd) {
   background-color: var(--background-color);
 }
